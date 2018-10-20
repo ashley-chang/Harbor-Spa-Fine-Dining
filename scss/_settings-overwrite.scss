@@ -1,0 +1,117 @@
+//   0. Custom
+//   ----------
+//   Theme Colors -- Adobe Kuler - Nautical Planner
+$theme-color-1: #15283B; //Dark blue
+$theme-color-2: #B1D9D3; //Pale blue
+$theme-color-3: #F7F9E9; //Beige
+$theme-color-4: #F2937E; //Salmon
+$theme-color-5: #D95B5B; //Red Sienna
+
+//   Typography
+$logo-font-family: 'Spectral', serif;
+$menu-link-font-family: 'Work Sans', sans-serif;
+$header-font-family: 'Work Sans', sans-serif;
+$body-font-family-serif: 'Cormorant Garamond', serif;
+$body-font-family-sans: 'Work Sans', sans-serif;
+
+//   1. Global
+//   ----------
+$foundation-palette: (
+  primary: $theme-color-1, //#595959,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+$body-font-family: $body-font-family-serif;
+$body-font-color: $theme-color-1;
+@include add-foundation-colors;
+
+
+//   2. Breakpoints
+//   ----------------
+$breakpoints: (
+  small: 0,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+);
+$breakpoint-classes: (small medium large);
+
+//   3. The Grid
+//   4. Base Typography
+//   -------------------
+$header-font-family: $header-font-family;
+$body-font-color: $primary-color;
+$anchor-color: $dark-gray;
+$anchor-color-hover: $theme-color-5;
+
+
+//   5. Typography Helpers
+//   6. Abide
+//   7. Accordion
+//   8. Accordion Menu
+//   9. Badge
+//  10. Breadcrumbs
+//  11. Button
+$button-color: $dark-gray;
+//  12. Button Group
+//  13. Callout
+//  14. Card
+//  15. Close Button
+//  16. Drilldown
+//  17. Dropdown
+//  18. Dropdown Menu
+//  19. Flexbox Utilities
+//  20. Forms
+//  21. Label
+//  22. Media Object
+//  23. Menu
+//  ---------
+$menu-nested-margin: 0.5rem;
+$menu-simple-margin: 0.5rem;
+$menu-items-padding: 0.75rem;
+//  24. Meter
+//  25. Off-canvas
+//  26. Orbit
+//  27. Pagination
+//  28. Progress Bar
+//  29. Prototype Arrow
+//  30. Prototype Border-Box
+//  31. Prototype Border-None
+//  32. Prototype Bordered
+//  33. Prototype Display
+//  34. Prototype Font-Styling
+//  35. Prototype List-Style-Type
+//  36. Prototype Overflow
+//  37. Prototype Position
+//  38. Prototype Rounded
+//  39. Prototype Separator
+//  40. Prototype Shadow
+//  41. Prototype Sizing
+//  42. Prototype Spacing
+//  43. Prototype Text-Decoration
+//  44. Prototype Text-Transformation
+//  45. Prototype Text-Utilities
+//  46. Responsive Embed
+//  47. Reveal
+//  48. Slider
+//  49. Switch
+//  50. Table
+//  51. Tabs
+//  52. Thumbnail
+//  53. Title Bar
+//  --------------
+$titlebar-background: $white;
+//  54. Tooltip
+//  55. Top Bar
+//  ------------
+$topbar-background: $white;
+
+//  56. Xy Grid
+//----------------
+$grid-margin-gutters: (
+  small: 30px,
+  medium: 40px
+);

@@ -1,0 +1,91 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+.theme-color-1 {
+  color: $theme-color-1;
+}
+
+.theme-color-1-bg {
+  background-color: $theme-color-1;
+}
+
+.theme-color-2 {
+  color: $theme-color-2;
+}
+
+.theme-color-2-bg {
+  background-color: $theme-color-2;
+}
+
+.theme-color-3 {
+  color: $theme-color-3;
+}
+
+.theme-color-3-bg {
+  background-color: lighten($theme-color-3, 4%);
+}
+
+.theme-color-4 {
+  color: $theme-color-4;
+}
+
+.theme-color-4-bg {
+  background-color: $theme-color-4;
+}
+
+.theme-color-5 {
+  color: $theme-color-5;
+}
+
+.theme-color-5-bg {
+  background-color: $theme-color-5;
+}
+
+.dark-gray {
+  color: $dark-gray;
+}
+
+.vertical-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  text-transform: lowercase;
+  color: $theme-color-1;
+}
+
+// .text-heading, .text-subheading {
+//   font-family: $body-font-family-serif, serif;
+// }
+
+.text-heading {
+  font-family: $body-font-family-serif, serif;
+  letter-spacing: 0.08rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: $body-font-color;
+  //text-transform: uppercase;
+}
+
+.text-subheading {
+  font-family: $body-font-family-sans, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: $dark-gray;
+  font-style: italic;
+  text-transform: lowercase;
+}
+
+.text-paragraph {
+  //font-family: $body-font;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.clearfix {
+  clear: both;
+}
